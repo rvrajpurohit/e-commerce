@@ -1,0 +1,72 @@
+/* cartPage.css */
+
+/* General styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  td img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  td button {
+    cursor: pointer;
+  }
+  
+  /* Total and Checkout section */
+  .total-section {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  .total-section p {
+    margin: 5px 0;
+  }
+  
+  .total-section p:last-child {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .total-section span {
+    font-weight: bold;
+  }
+  
+  .total-section span.green {
+    color: green;
+  }
+  
+  /* Checkout button */
+  .checkout-button {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #1976d2;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  .checkout-button:hover {
+    background-color: #1565c0;
+  }
+  
